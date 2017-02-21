@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"  
+  "http://www.w3.org/TR/html4/loose.dtd">  
+<html > 
+<head>           <title>Active Batch Learning with Stochastic Query-by-Forest (SQBF)</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)"> 
+<!-- fn-in,uni-html4,html --> 
+<meta name="src" content="aistats01Nov2010.tex"> 
+<meta name="date" content="2011-03-30 11:09:00"> 
+<link rel="stylesheet" type="text/css" href="jmlr.css"> 
+</head><body 
+>
+<!--l. 78--><p class="noindent" ><div id="content">
+   <div class="maketitle"><h2><h2 class="titleHead">Active Batch Learning with Stochastic Query-by-Forest (SQBF)</h2></h2> <span 
+class="cmbxti-10x-x-109">A. Borisov, E. Tuv &#x0026; G.</span>
+<span 
+class="cmbxti-10x-x-109">Runger</span><span 
+class="cmbx-10x-x-109">; </span>JMLR W&#x0026;CP 16:59–69, 2011.</div>
+   <div 
+class="abstract" 
+>
+<!--l. 85--><p class="indent" >   <h3>Abstract</h3> In a conventional machine learning approach, one uses labeled data to train the
+model. However, often we have a data set with few labeled instances, and a large number of
+unlabeled ones. This is called a semi-supervised learning problem. It is well known that often
+unlabeled data could be used to improve a model. In real world scenarios, labeled data can
+usually be obtained dynamically. However, obtaining new labels in most cases requires human
+eﬀort and/or is costly. An active learning (AL) paradigm tries to direct the queries in such way
+that a good model can be trained with a relatively small number of queries. In this work we focus
+on so-called pool-based active learning, i.e., learning when there is a ﬁxed large pool of
+unlabeled data, and we can query the label for any instance from this pool at some cost.
+Existing methods are often based on strong assumptions for the joint input/output
+distribution (i.e., a mixture of Gaussians, linearly separable input space, etc.), or use a
+distance-based approach (such as Euclidean or Mahalanobis distances). That makes such
+methods very susceptible to noise in input space, and they often work poorly in high
+dimensions. Also, such methods assume numeric inputs only. In addition, for most
+methods relying on distance computations and/or linear models, computational complexity
+scales at least quadratically with respect to the number of unlabeled samples, rendering
+them useless on large datasets. In real world applications data is often large, noisy,
+contains irrelevant inputs, missing values, and mixed variable types. Often queries
+should be arranged in groups or batches (this is called batch AL). In batch querying one
+should consider both the &#x2019;usefulness&#x2019; of individual queries within a batch, and the
+batch diversity. Batch AL, although being very practical by nature, is rarely addressed
+by existing AL approaches. Here we propose a new non-parametric approach to the
+AL problem called Stochastic Query by Forest (SQRF), that eﬀectively addresses the
+challenges described above. Our algorithm is based on a QBC algorithm applied to
+an RF ensemble, and our main contribution is the batch diversiﬁcation strategy. We
+describe two diﬀerent strategies for batch selection, the ﬁrst of which achieved the
+highest average score on the AISTATS 2010 active learning challenge and ranked top on
+one of the challenge datasets. Our work focuses on binary classiﬁcation problems, but
+our method can be directly applied to regression or multi-class problems with minor
+modiﬁcations.
+</div> <hr><center>Page last modified on Wed Mar 30 11:09:21 2011.</center> </div>
+   <div id="fixed"><br> <a align="right" href="http://www.jmlr.org" target=_top><img align="right" class="jmlr" src="http://jmlr.csail.mit.edu/jmlr.jpg" border="0"></a> <p><br><br> <p align="right"> <A href="http://www.jmlr.org/"> Home Page </A> <p align="right"> <A href="/papers"> Papers </A> <p align="right"> <A href="/author-info.html"> Submissions </A> <p align="right"> <A href="/news.html"> News </A> <p align="right"> <A href="/scope.html"> Scope </A> <p align="right"> <A href="/editorial-board.html"> Editorial Board </A> <p align="right"> <A href="/announcements.html"> Announcements </A> <p align="right"> <A href="/proceedings"> Proceedings </A> <p align="right"> <A href="/mloss">Open Source Software</A> <p align="right"> <A href="/search-jmlr.html"> Search </A> <p align="right"> <A href="/manudb"> Login </A></p> <br><br> <p align="right"> <A href="http://jmlr.csail.mit.edu/jmlr.xml"> <img src="http://jmlr.csail.mit.edu/RSS.gif" class="rss" alt="RSS Feed"> </A> </div> <a 
+ id="x1-1doc"></a> 
+</body></html> 
+
+                                                                                   
+
+
