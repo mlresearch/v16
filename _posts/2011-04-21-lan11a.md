@@ -1,0 +1,42 @@
+---
+title: "An Active Learning Algorithm Based on Parzen Window Classiï¬\x81cation"
+abstract: This paper describes active learning algorithm used in AISTATS 2010 Active
+  Learning Challenge as well as several of its extensions evaluated in the post-competition
+  experiments. The algorithm consists of a pair of Regularized Parzen Window Classifiers,
+  one trained on full set of features and another on features filtered using Pearson
+  correlation. Predictions of the two classifiers are averaged to obtain the ensemble
+  classifier. Parzen Window classifier was chosen because is an easy to implement
+  lazy algorithm and has a single parameter, the kernel window size, that is determined
+  by the cross-validation. The labeling schedule started by selecting random 20 examples
+  and then continued by doubling the number of labeled examples in each round of active
+  learning. A combination of random sampling and uncertainty sampling was used for
+  querying. For the random sampling, examples were first clustered using either all
+  features or the filtered features (whichever resulted in higher cross-validated
+  accuracy) and then the same number of random examples was selected from each cluster.
+  Our algorithm ranked as the 5th overall, and was consistently ranked in the upper
+  half of the competing algorithms. The challenge results show that Parzen Window
+  classifiers are less accurate than several competing learning algorithms used in
+  the competition, but also indicate the success of the simple querying strategy that
+  was employed. In the post-competition, we were able to improve the accuracy by using
+  an ensemble of 5 Parzen Window classifiers, each trained on features selected by
+  different filters. We also explored how more involved querying during the initial
+  stages of active learning and the pre-clustering querying strategy would influence
+  the performance of the proposed algorithm.
+pdf: "./lan11a/lan11a.pdf"
+layout: inproceedings
+key: lan11a
+month: 0
+firstpage: 99
+lastpage: 112
+origpdf: http://jmlr.org/proceedings/papers/v16/lan11a/lan11a.pdf
+sections: 
+authors:
+- given: L.
+  family: Lan
+- given: H.
+  family: Shi
+- given: Z.
+  family: Wang
+- given: S.
+  family: Vucetic
+---

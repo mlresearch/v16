@@ -10,6 +10,9 @@ supplementalurl: supplemental/JMLRWCP_V16_supplemental.html
 month: 0
 publisher: JMLR Workshop and Conference Proceedings
 volume: 16
+start: 2010-05-16
+end: 2010-05-16
+published: 2011-04-21
 shortname: Active Learning and Experimental Design Workshop
 sections:
 - name: tutorial
