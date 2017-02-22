@@ -1,0 +1,49 @@
+# Site settings
+# Auto generated from v16.bib
+---
+booktitle: Active Learning and Experimental Design workshop In conjunction with AISTATS
+  2010
+address: Sardinia, Italy
+logoright: logo.png
+year: '2010'
+supplementalurl: supplemental/JMLRWCP_V16_supplemental.html
+month: 0
+publisher: JMLR Workshop and Conference Proceedings
+volume: 16
+shortname: Active Learning and Experimental Design Workshop
+sections:
+- name: tutorial
+  title: Tutorial
+- name: default
+  title: Active Learning Challenge
+- name: studies
+  title: Case Studies in Active Learning
+layout: proceedings
+key: GuyonActive2010
+abstract: 
+origpdf: 
+pdf: "./GuyonActive2010/GuyonActive2010.pdf"
+editors:
+- given: Isabelle
+  family: Guyon
+- given: Gavin
+  family: Cawley
+- given: Gideon
+  family: Dror
+- given: Vincent
+  family: Lemaire
+- given: Alexander
+  family: Statnikov
+title: Active Learning and Experimental Design workshop In conjunction with AISTATS
+  2010
+conference: Active Learning and Experimental Design workshop In conjunction with AISTATS
+  2010
+email: ''
+description: Active Learning and Experimental Design workshop In conjunction with
+  AISTATS 2010, Sardinia, Italy
+url: http://proceedings.mlr.press
+baseurl: "/v16"
+twitter_username: mlresearch
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
