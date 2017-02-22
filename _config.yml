@@ -22,11 +22,11 @@ sections:
 - name: studies
   title: Case Studies in Active Learning
 layout: proceedings
-key: GuyonActive2010
+id: GuyonActive2010
 abstract: 
 origpdf: 
 pdf: "./GuyonActive2010/GuyonActive2010.pdf"
-editors:
+editor:
 - given: Isabelle
   family: Guyon
 - given: Gavin
