@@ -3,7 +3,6 @@
 ---
 booktitle: Active Learning and Experimental Design workshop In conjunction with AISTATS
   2010
-address: Sardinia, Italy
 logoright: logo.png
 year: '2010'
 supplementalurl: supplemental/JMLRWCP_V16_supplemental.html
@@ -23,9 +22,9 @@ sections:
   title: Case Studies in Active Learning
 layout: proceedings
 id: GuyonActive2010
-abstract: 
+abstract: ''
 origpdf: 
-pdf: "./GuyonActive2010/GuyonActive2010.pdf"
+pdf: http://proceedings.pmlr.press/GuyonActive2010/GuyonActive2010.pdf
 editor:
 - given: Isabelle
   family: Guyon
@@ -39,8 +38,6 @@ editor:
   family: Statnikov
 title: Active Learning and Experimental Design workshop In conjunction with AISTATS
   2010
-conference: Active Learning and Experimental Design workshop In conjunction with AISTATS
-  2010
 email: ''
 description: Active Learning and Experimental Design workshop In conjunction with
   AISTATS 2010, Sardinia, Italy
@@ -50,8 +47,15 @@ twitter_username: mlresearch
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
-gitub:
+github:
   edit: true
+  repository: v16
+conference:
+  name: 
+  url: 
+  location: Sardinia, Italy
+  dates:
+  - 2010-05-16
 analytics:
   google:
     tracking_id: UA-92432422-1
