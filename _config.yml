@@ -23,8 +23,6 @@ sections:
 layout: proceedings
 id: GuyonActive2010
 abstract: ''
-origpdf: 
-pdf: http://proceedings.pmlr.press/GuyonActive2010/GuyonActive2010.pdf
 editor:
 - given: Isabelle
   family: Guyon
