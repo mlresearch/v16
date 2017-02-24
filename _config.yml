@@ -1,5 +1,3 @@
-# Site settings
-# Auto generated from v16.bib
 ---
 booktitle: Active Learning and Experimental Design workshop In conjunction with AISTATS
   2010
@@ -21,6 +19,7 @@ sections:
 - name: studies
   title: Case Studies in Active Learning
 layout: proceedings
+series: Proceedings of Machine Learning Research
 id: GuyonActive2010
 abstract: ''
 editor:
@@ -58,3 +57,5 @@ conference:
 analytics:
   google:
     tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from v16.bib
