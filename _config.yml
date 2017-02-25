@@ -50,6 +50,7 @@ description: |
 
   Series Editors:
     Neil D. Lawrence
+date_str: 16 May
 url: http://proceedings.mlr.press
 baseurl: "/v16"
 twitter_username: mlresearch
@@ -59,6 +60,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v16
+bibtex_copy: true
 email: ''
 conference:
   name: Active Learning and Experimental Design workshop In conjunction with AISTATS
