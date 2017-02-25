@@ -33,11 +33,22 @@ editor:
   family: Lemaire
 - given: Alexander
   family: Statnikov
-title: Active Learning and Experimental Design workshop In conjunction with AISTATS
-  2010
-email: ''
-description: Active Learning and Experimental Design workshop In conjunction with
-  AISTATS 2010, Sardinia, Italy
+title: Proceedings of Machine Learning Research
+description: |
+  Active Learning and Experimental Design workshop In conjunction with AISTATS 2010
+    Held in Sardinia, Italy on 16 May 2010
+
+  Published as Volume 16 by the Proceedings of Machine Learning Research on 21 April 2011.
+
+  Volume Edited by:
+    Isabelle Guyon
+    Gavin Cawley
+    Gideon Dror
+    Vincent Lemaire
+    Alexander Statnikov
+
+  Series Editors:
+    Neil D. Lawrence
 url: http://proceedings.mlr.press
 baseurl: "/v16"
 twitter_username: mlresearch
@@ -47,6 +58,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v16
+email: ''
 conference:
   name: Active Learning and Experimental Design workshop In conjunction with AISTATS
     2010
