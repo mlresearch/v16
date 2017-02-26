@@ -24,6 +24,7 @@ id: GuyonActive2010
 abstract: ''
 tex_title: 
 title: Proceedings of Machine Learning Research
+cycles: false
 editor:
 - given: Isabelle
   family: Guyon
@@ -60,9 +61,12 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v16
-bibtex_copy: true
-endnote_copy: true
-apa_copy: true
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
 email: ''
 conference:
   name: Active Learning and Experimental Design workshop In conjunction with AISTATS
