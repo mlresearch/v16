@@ -21,9 +21,6 @@ sections:
 layout: proceedings
 series: Proceedings of Machine Learning Research
 id: GuyonActive2010
-abstract: ''
-tex_title: 
-title: Proceedings of Machine Learning Research
 cycles: false
 editor:
 - given: Isabelle
@@ -36,6 +33,7 @@ editor:
   family: Lemaire
 - given: Alexander
   family: Statnikov
+title: Proceedings of Machine Learning Research
 description: |
   Active Learning and Experimental Design workshop In conjunction with AISTATS 2010
     Held in Sardinia, Italy on 16 May 2010
@@ -54,7 +52,7 @@ description: |
 date_str: 16 May
 url: http://proceedings.mlr.press
 baseurl: "/v16"
-twitter_username: mlresearch
+twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
@@ -66,6 +64,7 @@ display:
     bibtex: true
     endnote: true
     apa: true
+    ris: true
   comments: false
 email: ''
 conference:
@@ -80,3 +79,4 @@ analytics:
     tracking_id: UA-92432422-1
 # Site settings
 # Auto generated from v16.bib
+---
